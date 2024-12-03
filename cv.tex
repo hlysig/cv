@@ -1,0 +1,33 @@
+\documentclass[margin]{res}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[hyphens]{url}
+\usepackage{hyperref}
+\usepackage{multicol}
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+    }
+    \begin{document}
+    \begin{figure}
+        \hspace{-3.4cm}
+        \begin{minipage}[b]{0.70\linewidth}
+            {\Huge\bf cv.\\\\\\
+            \large\bf Hlynur Sigurþórsson}\\
+            Kolsbeinsmýri 3\\
+            170 Seltjarnarnes\\
+            Iceland\\
+            hlysig@0x.is (personal),\\hlysig@gangverk.is (work)\\
+            Mobile: +345 893-1000\\
+        \end{minipage}
+    \end{figure}
+    \begin{resume}
+        \input{sections/personal_details}
+        \input{sections/experience}
+        \input{sections/education}
+        \input{sections/teaching}
+        \input{sections/publications}
+        \input{sections/guest_lectures}
+        \input{sections/grant_honors}
+    \end{resume}
+    \end{document}
