@@ -10,7 +10,7 @@ default: build
 
 build:
 	$(call compile_latex,cv)
-	mkdir output
+	mkdir -p output
 	mv cv.pdf output/hlysig_cv.pdf
 
 clean:
